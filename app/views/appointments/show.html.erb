@@ -1,0 +1,7 @@
+Doctor
+<%=link_to @appointment.doctor.name, doctor_path(@appointment.doctor)%>
+Patient
+<%=link_to @appointment.patient.name, patient_path(@appointment.patient)%>
+Appointment
+<%=@appointment.date_time_formatter%>
+
