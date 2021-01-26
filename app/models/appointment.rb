@@ -15,7 +15,7 @@ class Appointment < ApplicationRecord
     end
 
     def patient_name
-        self.doctor ? self.doctor.name : null
+        self.patient ? self.patient.name : null
     end
 
 end
